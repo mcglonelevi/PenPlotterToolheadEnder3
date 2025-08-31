@@ -20,26 +20,27 @@ I looked at other pen plotting attachments for the ender 3 V2.  I wanted the fol
 There are two parts to print in this build - the pen carriage and the base plate that attaches to the printer.  I printed both parts with 4 walls and 40% infill.  No support should be necessary, but there are a few overhangs.  The size of the overhangs are very small though.
 
 ## Quick Assembly Instructions
-1. Print out the carriage and base plate.
-2. In the carriage, press 2 brass inserts into the front 2 screw holes.  Use a soldering iron to melt the plastic and press them into place.  For PLA, I would recommend a soldering temp ~525F or 200C
-3. Check the fit of the 3mm steel rods in the pen carriage.  The pen carriage should slide but not move.  Depending on the tolerances of your printer, you may need to use a 1/8in drill bit to expand the holes.  Also, some PTFE lube may also help things slide a little easier.
-4. Insert the steel rods into the baseplate but do not push them all the way down.
-5. Slide the springs over the steel rods.
-6. Compress the spring and move one side of the pen carriage into place and push the steel rod all the way down.  If the rod will not press all the way into the bottom, I would recommend a clamp or a vice and gently hammer the rod into place.  It should be flush or close to flush with the top of the base plate.
-7. Compress the other spring and insert the other rod through the other hole in the pen carriage.
-8. Remove the toolhead and hot end from your Ender 3.  The instructions for this vary by model, but should involve unscrewing a screw in the back of the toolhead and then 2 screws for the hotend.
-9. Using 2 M3 screws, attach the base plate to your printer.
-10.Using 2 more M3 screws, thread them into the brass inserts on the front of the pen carriage. 
+These instructions assume the toolhead and hotend have been removed from your Ender 3.  The instructions for this vary by model, but should involve unscrewing a screw in the back of the toolhead and then 2 screws for the hotend.
+
+### Instructions
+1. In the carriage, press 2 brass inserts into the front 2 screw holes.  Use a soldering iron to melt the plastic and press them into place.  For PLA, I would recommend a soldering temp ~525F or 200C
+2. Check the fit of the 3mm steel rods in the pen carriage.  The pen carriage should slide but not move.  Depending on the tolerances of your printer, you may need to use a 1/8in drill bit to expand the holes.  Also, some PTFE lube may also help things slide a little easier.
+3. Insert the steel rods into the baseplate but do not push them all the way down.
+4. Slide the springs over the steel rods.
+5. Compress the spring and move one side of the pen carriage into place and push the steel rod as far in as you can.  Compress the other spring and insert the other rod through the other hole in the pen carriage.
+6: If the rods are not flush with the top, I would recommend a clamp or a vice or gently hammering the rod into place until its flush with the top.  It should be flush or close to flush with the top of the base plate if the length is close to 40mm
+7. Using 2 M3 x 8MM screws, thread them into the brass inserts on the front of the pen carriage.
+8. The base plate has 2 holes for attaching the plate to the printer.  For the right hole, use an M3x8mm screw.  For the right hole, stick a M3x12mm screw through it and the screw should poke through the back of the plate.  Secure it with a nut.
 
 ## Calibration
 Here are my recommended calibration steps.
 1. Using the prepare menu, home all the axes on your printer.  At the end of calibration, it's pretty likely that your Z height will not be ~13mm.
-2. Using the controls on the printer, set the Z axis to 0.1mm.
-3. Take a thick piece of paper like card stock or a playing card and insert it under the pen carriage so that it is just slightly elevated off of the base plate.
-4. Insert a pen and let it touch the build plate.  Turn both screws in the pen carriage to secure the pen in place.
-5. Remove the card stock from under the pen carriage.
-6. Lift up on the pen slightly and put a piece of paper in place.  I secure the paper to the build plate with binder clips.
-7. Using the controls on the printer, you can manually move the head around for a quick test.  Another option is to disable the stepper motors and move the gantry and bed by hand.  Assuming the lines look nice and solid, your printer is calibrated.
+2. Using the controls on the printer, set the Z axis to ~0.5mm.
+3. Insert a pen and let it touch the build plate.  Turn both screws in the pen carriage to secure the pen in place.
+4. Lift up on the pen slightly and put a piece of paper in place.  I secure the paper to the build plate with binder clips.
+5. Using the controls on the printer, you can manually move the head around for a quick test.  Another option is to disable the stepper motors and move the gantry and bed by hand.  Assuming the lines look nice and solid, your printer is calibrated.
+
+If your pen doesn't make contact with the paper, rerun the calibration steps above but use a slightly higher number on the Z in step 2 (0.7mm or 0.9mm may work better depending on pen and paper thickness).
 
 ## Generating G-Code
 I followed the instructions from Andrew Sink for the PLTR V2 here:
