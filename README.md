@@ -3,6 +3,9 @@
 ## Introduction
 I had an old Ender 3 V2 that was sitting around collecting dust.  I thought it would be fun to make a pen plotter attachment for the Ender 3 V2.  In case others were interested in making it, I am making this open-source under the MIT license.
 
+## Demo
+I made a YouTube video showcasing the toolhead in action: https://www.youtube.com/watch?v=6iu8gkPlm34
+
 ## Design Constraints
 I looked at other pen plotting attachments for the ender 3 V2.  I wanted the following features in my build:
 1. I wanted the pen to have some pressure via springs to account for an unlevel bed.
